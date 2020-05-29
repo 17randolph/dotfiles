@@ -88,12 +88,19 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -alF -h'
+alias ll='ls -alFh'
 alias la='ls -A'
 alias l='ls -CF'
 
 # alias to open file from terminal
 alias gopen='gio open'
+
+# alias to open python3 as python or py
+alias python='python3'
+alias py='python3'
+
+# update on one command
+alias update='sudo apt-get update && sudo apt-get upgrade'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
