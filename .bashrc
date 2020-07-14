@@ -125,3 +125,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+ 
+# Increase key speed via a rate change
+xset r rate 300 50 
+
